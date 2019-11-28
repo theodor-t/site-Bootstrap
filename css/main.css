@@ -1,11 +1,11 @@
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
-
 .slide-container {
     position: relative;
     overflow: hidden;
     width: 100%;
     height: 100vh;
 }
+
 .slide-container .slider {
     position: absolute;
     top: 0;
@@ -14,57 +14,64 @@
     height: 100%;
     animation: animate 20s linear infinite;
 }
+
 .slide-container .slider .slide {
     position: relative;
     width: 20%;
     height: 100%;
     float: left;
 }
-.slide-container .slider .slide .caption { 
+
+.slide-container .slider .slide .caption {
     position: absolute;
     bottom: 60px;
     right: 60px;
     left: 60px;
     padding: 30px;
-    background-color: rgba(0,0,0,.5);
-    box-sizing:border-box;
+    background-color: rgba(0, 0, 0, .5);
+    box-sizing: border-box;
     transition: 1s;
 }
-.slide-container .slider .slide .caption h2 { 
+
+.slide-container .slider .slide .caption h2 {
     margin: 0;
     padding: 0;
     color: #fff;
     font-size: 30px;
     transition: 1s;
 }
-.slide-container .slider .slide .caption p { 
+
+.slide-container .slider .slide .caption p {
     margin: 0;
     padding: 0;
     color: #fff;
     font-size: 18px;
     transition: 1s;
 }
+
 .slide-container .slider .slide.slide1 {
     background: url(../img/slider/1.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .slide-container .slider .slide.slide2 {
     background: url(../img/slider/2.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .slide-container .slider .slide.slide3 {
     background: url(../img/slider/3.jpg);
     background-size: cover;
     background-position: center;
 }
+
 .slide-container .slider .slide.slide4 {
     background: url(../img/slider/4.jpg);
     background-size: cover;
     background-position: center;
 }
-
 
 @keyframes animate {
     0% {
@@ -96,20 +103,18 @@
     }
 }
 
-
-
 @media screen and (max-width: 768px) {
-    .container .slider .slide .caption { 
+    .container .slider .slide .caption {
         bottom: 20px;
         right: 20px;
         left: 20px;
         padding: 20px;
     }
-    .container .slider .slide .caption h2 { 
+    .container .slider .slide .caption h2 {
         margin: 0 0 10px;
         font-size: 30px;
     }
-    .container .slider .slide .caption p { 
+    .container .slider .slide .caption p {
         font-size: 16px;
     }
 }
@@ -117,8 +122,8 @@
 
 /*О нас*/
 
-.mt-60{
-    margin-top:60px;
+.mt-60 {
+    margin-top: 60px;
 }
 
 .section-block-grey {
@@ -209,9 +214,12 @@
 .serv-section-2:hover:before {
     background: #5f27cd;
 }
+
+
 /*Счётчик*/
+
 .counter {
-    background-color:#f5f5f5;
+    background-color: #f5f5f5;
     padding: 20px 0;
     border-radius: 5px;
 }
@@ -246,6 +254,7 @@
     position: fixed;
     right: 10px;
 }
+
 .popup,
 .shadow {
     display: none;
@@ -448,8 +457,10 @@
     box-shadow: rgba(255, 255, 255, 0) 0 1px 0, inset rgba(255, 255, 255, 0.7) 0 1px 0;
 }
 
+
 /*Sale button*/
-.sale_button{
+
+.sale_button {
     left: 110px;
     bottom: 47px;
 }
