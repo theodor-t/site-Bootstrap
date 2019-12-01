@@ -464,3 +464,7 @@
     left: 110px;
     bottom: 47px;
 }
+
+#contacts .card:hover i,#contacts .card:hover h4{
+    color: #87d37c;
+}
